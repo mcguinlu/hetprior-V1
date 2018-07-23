@@ -61,6 +61,8 @@
 #'
 #'
 #'@author Luke A McGuinness \email{luke.mcguinness@@bristol.ac.uk}
+#'
+#'@export
 
 
 
