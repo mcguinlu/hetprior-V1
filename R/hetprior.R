@@ -198,16 +198,16 @@ hetprior <- function(a,b,c,d,e,f,g,h,graph=FALSE,quiet=FALSE){
 
     } else {
 
-    #priormean<<-prior.data[1, 1]
+    priormean<<-prior.data[1, 1]
     priorsd<<-prior.data[1, 2]
     priorvar<<-priorsd*priorsd
-    priormedian<<-prior.data[1,4]
+    #priormedian<<-prior.data[1,4]
     #priorlow95ci<<-prior.data[1,5]
     #priorhigh95ci<<-prior.data[1,6]
 
     if(quiet==FALSE){
       cat("   Prior distrubtion          = ", d, "\n")
-      #cat("   Prior Mean (priormean)     = ", priormean, "\n")
+      cat("   Prior Mean (priormean)     = ", priormean, "\n")
       cat("   Prior SD (priorsd)         = ", priorsd, "\n")
       cat("   Prior variance (priorvar)  = ", priorvar, "\n")
       #cat("   Prior Median (priormedian) = ", priormedian, "\n")
