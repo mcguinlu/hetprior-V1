@@ -235,10 +235,9 @@ hetprior <- function(a,b,c,d,e,f,g,h,graph=FALSE,quiet=FALSE){
 
      if(d=="Inverse gamma"){
 
-      is.installed <- function(mypkg) is.element(mypkg, installed.packages()[,1])
-      if(is.installed("invgamma")<=FALSE){
-        install.packages("invgamma")
-        library(invgamma)
+      if (!requireNamespace("dinvgamma", quietly = TRUE)) {
+        stop("Package \"dinvgamma\" needed to graph this distribution. Please install it and rerun the previous code",
+             call. = FALSE)
       }
 
       xv <- seq(0,10,.001)
