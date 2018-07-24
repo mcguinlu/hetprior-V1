@@ -4,7 +4,7 @@ This is the landing page for the hetprior R package.
 
 * * *
 
-## Installing the '\hetprior\' R package
+## Installing the `hetprior` R package
 First ensure you have the `devtools` package installed:
 
     install.packages("devtools")
