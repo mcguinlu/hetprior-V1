@@ -19,19 +19,19 @@ To update the package just run the `install_github("mcguinlu/hetprior")` command
 * * *
 
 ## Examples
-### General Example (with output, without graph)
+General Example (with output, without graph)
    
     hetprior("Tau2", "Binary","Log odds ratio","Log normal","General","General","Cancer","<50")
    
    
    
-### General Example with Graph (graph=TRUE)
+General Example with Graph (graph=TRUE)
     
     hetprior("Tau2", "Binary","Log odds ratio","Log normal","General","General","Cancer",">50",graph=TRUE)
     
     
     
-### General Example without output (quiet=TRUE)
+General Example without output (quiet=TRUE)
     
     hetprior("Tau2", "Binary","Log odds ratio","Log normal","General","General","Cancer",">50",quiet=TRUE)
    
