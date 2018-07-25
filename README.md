@@ -1,7 +1,5 @@
 # hetprior
 
-This is the landing page for the hetprior R package.
-
 * * *
 
 ## Installing the `hetprior` R package
